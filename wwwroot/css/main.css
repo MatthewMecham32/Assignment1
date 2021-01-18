@@ -1,0 +1,18 @@
+﻿body {
+    font-family: 'Franklin Gothic Book';
+}
+
+label{
+    font-size:40px;
+    color:purple;
+    width:150px;
+    display: inline-block;
+}
+
+h1{
+    color:blue;
+}
+
+ul.Quiz li{
+    list-style-type:none;
+}

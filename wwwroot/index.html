@@ -1,40 +1,44 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" type="image/jpg" href="img/download2.png" />
     <link href="css/main.css" rel="stylesheet" />
     <meta charset="utf-8" />
-    <title>Prof. Ganderson Fan Site</title>
+    <title>Matt's Assignment #1</title>
 </head>
 <body>
-    <img src="img/GandersonSmile.jpg" />
-    <h1>Prof Ganderson Fan Site</h1>
-    <p>Prof Ganderson is a professor in the information systems department at BYU</p>
+    <img src="img/IMG_20201022_085742871.jpg" />
+    <h1>Matt Mecham</h1>
+    <p>I hope to learn how to better build websites and use technology to my advantage. I also hope to learn other useful skills to the programming world</p>
     <br />
-    <p>Pop Quiz: we love him because</p>
+    <h2>Top 3 Jobs (Kind of, I'm not really sure)</h2>
     <ul class="Quiz">
-        <li>A: the lucsious locks he used to have</li>
-        <li>B: He can pound a pound of bacon like it ain't no thang.</li>
-        <li>C: That million dollar smile</li>
-        <li>D: He looks out and cares for everyone around him</li>
-        <li>E: All of the above</li>
+        <li>1. Cybersecurity</li>
+        <li>2. Project Manager</li>
+        <li>3. Data Analyst</li>
     </ul>
-
-    <h2>Fan Mail Section</h2>
+    <h2>Grade Calculator</h2>
     <form>
-        <label>From:</label>
-        <input id="From" />
+        <label>Assignments</label>
+        <input id="Assignments" type="number" />
         <br />
-        <label>Email:</label>
-        <input id="Email" />
+        <label>Group Projects</label>
+        <input id="Projects" type="number" />
         <br />
-        <label>Subject:</label>
-        <input id="Subject" />
+        <label>Quizes</label>
+        <input id="Quiz" type="number" />
         <br />
-        <label>Message:</label>
-        <textarea id="Message" rows="5"></textarea>
+        <label>Exams</label>
+        <input id="exam" type="number" />
         <br />
-        <input type="submit" value="Send Message" id="SubmitButton" />
+        <label>INTEX</label>
+        <input type="number" id="INTEX" />
+        <br />
+        <br />
+        <input type="submit" id="SubmitButton" />
     </form>
+
+    <script src="js/fanmail.js"></script>
 </body>
-<script src="js/fanmail.js"></script>
+
 </html>

@@ -1,0 +1,26 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/jpg" href="~/img/download2.png" />
+    <link href="~/css/main.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <h1>@ViewBag.Test</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="First" asp-action="Index">Home</a></li>
+                <li><a asp-controller="First" asp-action="SecondPage">Second Page</a></li>
+            </ul>
+        </menu>
+    </header>
+    @RenderBody()
+    <footer>Test Test</footer>
+    <script src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/fanmail.js"></script>
+</body>
+
+</html>
